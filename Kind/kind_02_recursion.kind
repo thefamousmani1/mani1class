@@ -1,0 +1,51 @@
+// Recursion
+
+half(a: Nat): Nat // half
+
+  ?h
+
+double(a: Nat): Nat // double
+
+  ?b
+
+add(a: Nat, b: Nat): Nat // addition
+
+  ?a
+
+Mul(a: Nat, b: Nat): Nat // multiplication
+  
+  ?m
+
+Sub(a: Nat, b: Nat): Nat //  ubtraction
+
+  ?s
+
+// 4 - 5 = 0
+// 5 - 4 = 1
+
+factorial(a: Nat): Nat // factorial 
+  
+  ?f
+
+div(a: Nat, b: Nat): Nat // division
+  
+  ?d
+
+//div 1/2 = 0
+//div x/0 = 0
+//div 5/2 = 2
+//round down
+
+equal(a: Nat, b: Nat): Bool // Given 2 numbers, it returns true if the 2 are the same and false if they are different.
+  
+  ?e 
+
+gtn(a: Nat, b: Nat): Bool // if A > B == True else false
+  
+  ?g
+
+ltn(a: Nat, b: Nat): Bool // if A > B == False else true 
+  
+  ?l
+ 
+// Cannot use Bool.not

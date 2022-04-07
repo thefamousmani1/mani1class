@@ -1,0 +1,21 @@
+// Basic
+
+inc(a: Nat): Nat // increment
+  
+  ?i
+
+dec(a: Nat): Nat // decrement
+  
+  ?d
+
+neg(b: Bool): Bool // negation
+
+  ?n
+
+and(a: Bool, b: Bool): Bool // and 
+
+  ?a
+
+or(a: Bool, b: Bool): Bool //or 
+
+  ?o
