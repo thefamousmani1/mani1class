@@ -1,3 +1,8 @@
+## Kindelia Thesis
+
+- [Kind Devil Thesis (PT-BR)](https://www.twitch.tv/videos/1449992524) at UFMG, by Taelin.
+    - [Slides](https://www.figma.com/proto/nGQgS3zmhJrXVKupQHBacw/Kindelia---A-Kind-Devil's-Thesis?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1)
+
 ## Video Classes
 
 ### Basic UNIX Commands
