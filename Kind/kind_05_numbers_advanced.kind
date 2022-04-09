@@ -32,7 +32,10 @@ Nat.min.small_left(a: Nat, b: Nat): (Nat.min(a, b) <=? a) == true
 Nat.min.small_right(a: Nat, b: Nat): (Nat.min(a, b) <=? b) == true
   ?Nat.min.small_right
 
-Nat.min.small(a: Nat, b: Nat): And<(Nat.min(a, b) <=? a) == true, (Nat.min(a, b) <=? b) == true>
+Nat.min.small(
+  a: Nat
+  b: Nat
+): And<(Nat.min(a, b) <=? a) == true, (Nat.min(a, b) <=? b) == true>
   ?Nat.min.small
 
 Nat.gcd.self(a: Nat): Nat.gcd(a,a) == a
