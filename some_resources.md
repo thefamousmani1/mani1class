@@ -10,7 +10,7 @@
 
 ---
 
-## Functional Programming 
+## Functional Programming
 
 ### Haskell
 
