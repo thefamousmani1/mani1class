@@ -16,7 +16,7 @@ mul(a: Nat, b: Nat): Nat // multiplication
   
   ?m
 
-sub(a: Nat, b: Nat): Nat //  ubtraction
+sub(a: Nat, b: Nat): Nat // subtraction
 
   ?s
 
@@ -48,4 +48,4 @@ ltn(a: Nat, b: Nat): Bool // if A > B == False else true
   
   ?l
  
-// Cannot use Bool.not
+// Don't use Bool.not
