@@ -47,5 +47,4 @@ gtn(a: Nat, b: Nat): Bool // if A > B == True else false
 ltn(a: Nat, b: Nat): Bool // if A > B == False else true 
   
   ?l
- 
 // Don't use Bool.not
