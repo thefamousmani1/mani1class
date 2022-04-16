@@ -1,0 +1,52 @@
+// Considere a seguinte definição para números naturais:
+//
+// Z:     O número zero
+// (S x): O sucessor de um número x
+//
+// Ex.: O número 3 seria (S (S (S Z)))
+//
+// Com essa definição em mente, faça os seguintes exercícios:
+
+// PS.: Lembre-se de novo que, se sua função tiver casos específicos,
+// você precisa escrever uma versão da função para cada um dos casos:
+//
+// (Func Z)     -> Irá rodar apenas para Zero
+// (Func (S n)) -> Irá rodar para qualquer número que não seja Zero
+//              -> Chamando a função desse jeito, você pode usar 'n' como variável
+// (Func x)     -> Irá rodar para qualquer número
+
+// Retorna o antecessor do número
+// (Pred x)
+
+// Retorna o dobro do número
+// (Dobro x)
+
+// Retorna metade (arredondado pra baixo) do número
+// (Metade x)
+
+// Retorna a adição de dois números
+// (Add x y)
+
+// Retorna a subtração de dois números (0 se seria negativo)
+// (Sub x y)
+
+// Retorna a multiplicação de dois números
+// (Mul x y)
+
+// Retorna o fatorial de um número
+// (Fat x)
+
+// SPECIAL BOSS: Retorna a divisão entre dois números, arredondada pra baixo
+// PS.: Retorna 0 em caso de divisão por 0
+// (Div x y)
+
+// Para os exercícios a seguir, considere também a definição de Booleanos do arquivo anterior
+
+// Retorna se dois números são iguais
+// (Equal x y)
+
+// Retorna se o primeiro arg é maior que o segundo
+// (Maior x y)
+
+// Retorna se o primeiro arg é menor que o segundo
+// (Menor x y)
