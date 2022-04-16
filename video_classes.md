@@ -6,7 +6,7 @@
 ## Kindelia Runtime
 
 - [Runtime Ultrarápido e Brasileiro (PT-BR)](https://www.youtube.com/watch?v=wCS4B1bagu0) at Codecon, by Taelin.
-    - [Slides](...)
+    - [Slides](https://www.figma.com/proto/nGQgS3zmhJrXVKupQHBacw/Kindelia---A-Kind-Devil's-Thesis?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1)
     
 ## Video Classes
 
