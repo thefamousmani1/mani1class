@@ -1,0 +1,30 @@
+// Considere a seguinte definição para booleanos:
+//
+// True:  verdadeiro
+// False: falso
+//
+// Com essa definição em mente, faça os seguintes exercícios:
+
+// PS.: Lembre-se que para tratar casos específicos,
+// você precisa escrever uma versão da função para cada caso,
+// e o HVM irá sempre tentará rodar as funções mais acima primeiro
+//
+// Exemplos:
+// (Func True x)  -> Irá rodar se o primeiro argumento for True
+// (Func x False) -> Irá rodar se o segundo argumento for False
+// (Func x y)     -> Irá rodar para qualquer valor
+
+// Operação lógica de negação
+// (Not x)
+
+// Operação lógica de igualdade
+// (Equal x y)
+
+// Operação lógica E
+// (And x y)
+
+// Operação lógica OU
+// (Or x y)
+
+// Operação lógica OU Exclusivo
+// (Xor x y)
