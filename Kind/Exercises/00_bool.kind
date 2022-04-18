@@ -1,0 +1,27 @@
+type Bool {
+  true
+  false
+}
+
+// Negation
+// Returns the opposite of a Bool
+neg(b: Bool): Bool 
+
+  ?n
+
+// And
+// Returns true if both inputs are true
+and(a: Bool, b: Bool): Bool
+
+  ?a
+
+// Or
+// Returs true if any input is true
+or(a: Bool, b: Bool): Bool
+
+  ?o
+
+// Equal
+// Returs true if both inputs are identical
+eql(a: Bool, b: Bool): Bool
+  ?e
