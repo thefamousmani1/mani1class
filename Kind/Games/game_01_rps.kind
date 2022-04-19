@@ -5,11 +5,11 @@ type Object {
   scissors
 }
 
-// Converts a text to an Object. If not possible, returns stone
+// Converts a text to an Object. If not possible, returns rock
 Object.read(code: String): Object
   ?a
 
-// Converts a number to an Object. If not possible, returns stone
+// Converts a number to an Object. If not possible, returns rock
 Object.from_nat(n: Nat): Object
   ?b
 
