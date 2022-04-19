@@ -1,3 +1,5 @@
+// Theorems involving
+
 ///Natural numbers
 Nat.divides(a: Nat, b: Nat): Type
   ?Nat.divides

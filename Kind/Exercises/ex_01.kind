@@ -1,3 +1,5 @@
+// Basic Exercises involving Nats
+
 type Nat {
   zero
   succ(pred: Nat)

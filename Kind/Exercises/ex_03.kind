@@ -1,3 +1,5 @@
+// Advanced exercises involving recursion
+
 type Nat {
   zero
   succ(pred: Nat)

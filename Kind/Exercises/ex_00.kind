@@ -1,3 +1,5 @@
+// Basic Exercises involving Bools
+
 type Bool {
   true
   false
