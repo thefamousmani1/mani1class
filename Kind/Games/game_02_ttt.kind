@@ -71,6 +71,14 @@ TicTacToe.Piece.show(a: Maybe<TicTacToe.Piece>): String
   ?i
 
 // Shows the board
+// Example:
+//
+//  X | X | O 
+// -----------
+//  O | O | X 
+// -----------
+//  X | O | X 
+//
 TicTacToe.show(game: TicTacToe): String
   ?j
 
