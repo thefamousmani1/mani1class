@@ -36,11 +36,7 @@
 // Retorna o fatorial de um número
 // (Fat x)
 
-// SPECIAL BOSS: Retorna a divisão entre dois números, arredondada pra baixo
-// PS.: Retorna 0 em caso de divisão por 0
-// (Div x y)
-
-// Para os exercícios a seguir, considere também a definição de Booleanos do arquivo anterior
+// Para os 3 exercícios a seguir, considere também a definição de Booleanos do arquivo anterior
 
 // Retorna se dois números são iguais
 // (Equal x y)
@@ -50,3 +46,7 @@
 
 // Retorna se o primeiro arg é menor que o segundo
 // (Menor x y)
+
+// SPECIAL BOSS: Retorna a divisão entre dois números, arredondada pra baixo
+// PS.: Retorna 0 em caso de divisão por 0
+// (Div x y)
