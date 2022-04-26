@@ -31,7 +31,8 @@ Test: IO(Unit)
     // Converts the user_input (String) to the Object type
     let user_object = ?e
 
-    // Number = Random -> 0, 1, 2
+    // Returns a random number below 3
+    // 0, 1 or 2
     get random_num = IO.random(3)
 
     // Converts random_num (Nat) to the Object type
