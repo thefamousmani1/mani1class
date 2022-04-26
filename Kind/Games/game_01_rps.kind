@@ -18,7 +18,7 @@ Object.from_nat(n: Nat): Object
 Object.wins(a: Object, b: Object): Bool
   ?c
 
-// If wins, return "Você ganhou" else "Você perdeu"
+// If wins return "You won", else "You lost"
 Object.match_result(win: Bool): String
   ?d
 
