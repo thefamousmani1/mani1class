@@ -1,24 +1,64 @@
-// Basic Exercises involving Pairs
+// Advanced exercises involving recursion
 
-type Pair <A: Type, B: Type> {
-  new(fst: A, snd: B)
+type Nat {
+  zero
+  succ(pred: Nat)
 }
 
-// Example:
-// Swaps the elements of a pair
-swap<A: Type, B: Type>(pair: Pair<A,B>): Pair<B,A>
-  case pair {
-    new: Pair.new<B, A>(pair.snd, pair.fst)
-  }
+// Doubles a number
+dbl(a: Nat): Nat // double
 
-// Returns the first element of a pair
-first<A: Type, B: Type>(pair: Pair<A,B>): A
+  ?b
+
+// Addition
+add(a: Nat, b: Nat): Nat
+
   ?a
 
-// Returns the second element of a pair
-second<A: Type, B: Type>(pair: Pair<A,B>): B
-  ?a
+// Multiplication
+mul(a: Nat, b: Nat): Nat
+  
+  ?m
 
-// Applies a function to both elements of a Pair
-map<A: Type, B: Type>(fn: A -> B, pair: Pair<A,A>): Pair<B,B>
-  ?a
+// Subtraction
+// 4 - 5 = 0
+// 5 - 4 = 1
+sub(a: Nat, b: Nat): Nat
+
+  ?s
+
+// Factorial
+// 4! = 24
+fac(a: Nat): Nat 
+  
+  ?f
+
+// Division
+// 1 / 2 = 0
+// x / 0 = 0
+// 5 / 2 = 2
+div(a: Nat, b: Nat): Nat // division
+  
+  ?d
+
+// Equal
+eql(a: Nat, b: Nat): Bool // Given 2 numbers, it returns true if the 2 are the same and false if they are different.
+  
+  ?e 
+
+// Do not use the "not" function to create the functions below
+
+// Greater than
+// 2 > 1 = True
+// 3 > 3 = False
+gtn(a: Nat, b: Nat): Bool // if A > B == True else false
+  
+  ?g
+
+// Lower than
+// 1 < 2 = True
+// 3 < 3 = False
+ltn(a: Nat, b: Nat): Bool // if A > B == False else true 
+  
+  ?l
+
