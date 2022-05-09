@@ -59,3 +59,8 @@ nand(a: Bool, b: Bool): Bool
 
   ?n3
 
+// Xnor
+// Returns true if both inputs are identical
+xnor(a: Bool, b: Bool): Bool
+
+  ?x2
