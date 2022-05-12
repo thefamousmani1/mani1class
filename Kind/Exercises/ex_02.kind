@@ -23,8 +23,8 @@ eql(a: PairBool, b: PairBool): Bool
   ?f
 
 // Returns true if both Pairs are different
-// eql(PairBool.new(false, false), PairBool.new(true, true)) -> true 
-// eql(PairBool.new(true, false), PairBool.new(true, false)) -> false
+// xor(PairBool.new(false, false), PairBool.new(true, true)) -> true 
+// xor(PairBool.new(true, false), PairBool.new(true, false)) -> false
 xor(a: PairBool, b: PairBool): Bool
   ?f
   
