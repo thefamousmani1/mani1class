@@ -1,18 +1,18 @@
 // Consider the following definition for natural numbers:
 //
 // Z:     The number zero
-// (S x): The sucessor of a number x
+// (S x): The successor of a number x
 //
 // Ex.: The number 3 would be (S (S (S Z)))
 //
 // With that definition in mind, do the following exercises:
 
 // PS.: Remember again that, if your function has specific cases,
-// you need write a version of the function for each case:
+// you need to write a version of the function for each case:
 //
 // (Func Z)     -> Will run only for Zero.
 // (Func (S n)) -> Will run for every number that is not Zero.
-//              -> Calling the function like that, you can use 'n' as variable.
+//                 By calling the function in that way, you can use 'n' as variable.
 // (Func x)     -> Will run for any number.
 
 // Returns the predecessor of the number
@@ -21,7 +21,7 @@
 // Returns the Double of the number
 // (Dobro x)
 
-// Returns the Half a number and round down (e.g.:"5/2 = 2") 
+// Returns the Half of the number and round it down (e.g.:"5/2 = 2") 
 // (Metade x)
 
 // Returns the Sum of two numbers
@@ -33,7 +33,7 @@
 // Returns the Multiplication two numbers
 // (Mul x y)
 
-// Returns the Factorial of a number
+// Returns the Factorial of the number
 // (Fat x)
 
 // For the following 3 exercises, consider the definition of Booleans from the previous file
