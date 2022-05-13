@@ -62,3 +62,16 @@ ltn(a: Nat, b: Nat): Bool // if A > B == False else true
   
   ?l
 
+// Minimum
+// min(2, 3) = 2
+// min(4, 1) = 1
+min(a: Nat, b: Nat): Bool // if A < B then A else B
+  
+  ?m2
+
+// Maximum
+// max(2, 3) = 3
+// max(4, 1) = 4
+max(a: Nat, b: Nat): Bool // if A > B then A else B
+  
+  ?m3
