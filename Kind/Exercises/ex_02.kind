@@ -23,9 +23,9 @@ eql(a: PairBool, b: PairBool): Bool
   ?f
 
 // Returns true if both Pairs are different
-// eql(PairBool.new(false, false), PairBool.new(true, true)) -> true 
-// eql(PairBool.new(true, false), PairBool.new(true, false)) -> false
-xor(a: PairBool, b: PairBool): Bool
+// not_eql(PairBool.new(false, false), PairBool.new(true, true)) -> true 
+// not_eql(PairBool.new(true, false), PairBool.new(true, false)) -> false
+not_eql(a: PairBool, b: PairBool): Bool
   ?f
   
 // Creates a PairBool from 2 Booleans
