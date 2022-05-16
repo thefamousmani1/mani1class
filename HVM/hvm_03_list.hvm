@@ -47,5 +47,5 @@
 // (Map fn xs)
 
 // Returns the list only with the elements that satisfy a condition
-// Ex.: (Map Not [True, False, True]) -> [False]
+// Ex.: (Filter Not [True, False, True]) -> [False]
 // (Filter fn xs)
