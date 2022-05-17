@@ -28,7 +28,7 @@
 // Returns the last element of a list
 // (Last xs)
 
-// Returns the list without its first element
+// Returns the list without its last element
 // (Init xs)
 
 // Returns the length of the list
