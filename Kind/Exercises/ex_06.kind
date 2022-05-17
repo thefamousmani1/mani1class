@@ -9,7 +9,7 @@ type Neg {
   pred(succ: Neg)
 }
 
-// -0 does not exists
+// -0 does not exist
 
 // Increments a negative number by one
 neg_succ(n: Neg): Neg
