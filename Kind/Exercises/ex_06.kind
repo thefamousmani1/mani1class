@@ -1,15 +1,15 @@
 // Integer Exercises
 
-// Positive Numbers
-type Pos { 
-  zero
-  succ(pred: Pos)
-}
-
 // Integers
 type Inte { 
   neg(num: Neg)
   pos(num: Pos)
+}
+
+// Positive Numbers
+type Pos { 
+  zero
+  succ(pred: Pos)
 }
 
 // Negative Numbers
