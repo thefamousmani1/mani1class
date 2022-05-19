@@ -26,7 +26,7 @@ To solve the exercises you will need to read the
 git clone https://github.com/<your-user-name>/<your-repository-name>
 ```
 
-* `cd`on the folder created and make the exercises on folder **Kind**
+* `cd` on the folder created and make the exercises on folder **Kind**
 
 ### Get Tokens
 The repository [kindelia/class-solutions](https://github.com/Kindelia/class-solutions#readme) 
