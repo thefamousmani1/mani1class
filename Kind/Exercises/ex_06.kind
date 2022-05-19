@@ -1,7 +1,16 @@
 // Integer Exercises
 
-// Functions for negative numbers to help testing 
-// Do not edit those functions
+// Integers
+type Inte { 
+  neg(num: Neg)
+  pos(num: Pos)
+}
+
+// Positive Numbers
+type Pos { 
+  zero
+  succ(pred: Pos)
+}
 
 // Negative Numbers
 type Neg { 
@@ -9,8 +18,8 @@ type Neg {
   pred(succ: Neg)
 }
 
+// example
 // -0 does not exist
-
 // Increments a negative number by one
 neg_succ(n: Neg): Neg
   case n { 
@@ -18,12 +27,8 @@ neg_succ(n: Neg): Neg
     pred: n.succ
   }
 
-// Aux function for Nat.to_neg
-nat_to_neg_aux(n: Nat): Neg
-  case n {
-    zero: Neg.one
-    succ: Neg.pred(nat_to_neg_aux(n.pred))
-  }
+// Functions for negative numbers to help testing 
+// Do not edit those functions
 
 // Converts Neg to Nat
 neg_to_nat(n: Neg): Nat
@@ -31,24 +36,17 @@ neg_to_nat(n: Neg): Nat
     one:  Nat.succ(Nat.zero)
     pred: Nat.succ(neg_to_nat(n.succ))
   }
-
+  
 // Converts Nat to Neg
 nat_to_neg(n: Nat): Neg
   neg_succ(nat_to_neg_aux(n))
-
-// Converts Neg to String
-neg_show(n: Neg): String
-  "-"|Nat.show(neg_to_nat(n))
-
-
-// Functions for negative numbers to help testing 
-// Do not edit those functions
-
-// Positive Numbers
-type Pos { 
-  zero
-  succ(pred: Pos)
-}
+  
+  // Aux function for Nat.to_neg
+nat_to_neg_aux(n: Nat): Neg
+  case n {
+    zero: Neg.one
+    succ: Neg.pred(nat_to_neg_aux(n.pred))
+  }
 
 // Converts Pos to Nat
 pos_to_nat(n: Pos): Nat
@@ -68,12 +66,9 @@ nat_to_pos(n: Nat): Pos
 pos_show(n: Pos): String
   "+"|Nat.show(pos_to_nat(n))
 
-
-// Integers
-type Inte { 
-  neg(num: Neg)
-  pos(num: Pos)
-}
+// Converts Neg to String
+neg_show(n: Neg): String
+  "-"|Nat.show(neg_to_nat(n))
 
 // Convertss Int to String
 inte_show(n: Inte): String
@@ -82,7 +77,7 @@ inte_show(n: Inte): String
     pos: pos_show(n.num) 
   }
 
-// Creates an int
+// Creates an int sign
 // true  = Positive 
 // false = Negative
 int(sign: Bool, num: Nat): Inte
