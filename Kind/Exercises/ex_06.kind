@@ -75,7 +75,7 @@ type Inte {
   pos(num: Pos)
 }
 
-// Convertss Int to String
+// Converts Int to String
 inte_show(n: Inte): String
   case n {
     neg: neg_show(n.num) 
@@ -125,20 +125,20 @@ dbl(a: Inte): Inte
 add(a: Inte, b: Inte): Inte
   ?add
 
-// Multiplies two numbers
+// Multiplies two Integers
 // int(false, 2) * int(true, 3)  = -6
 // int(false, 4) * int(false, 5) = +20
 mul(a: Inte, b: Inte): Inte
   ?mul
 
-// Subtracts two Interger numbers
+// Subtracts two Integers
 // int(false, 6) - int(false, 6) = +0
 // int(false, 4) - int(false, 6) = +2
 sub(a: Inte, b: Inte): Inte
   ?sub
 
 // Equal
-eql(a: Inte, b: Inte): Bool // Given 2 numbers, it returns true if the 2 are the same and false if they are different.
+eql(a: Inte, b: Inte): Bool // Given two Integers, returns true if both are the same and false otherwise.
   ?eql
 
 
@@ -147,13 +147,13 @@ eql(a: Inte, b: Inte): Bool // Given 2 numbers, it returns true if the 2 are the
 // int(false, 5) > int(false, 1) = False
 // int(false, 2) > int(true,  0) = False
 // int(true,  0) > int(false, 2) = True
-gtn(a: Inte, b: Inte): Bool // if A > B == True else false
+gtn(a: Inte, b: Inte): Bool // if A > B then True else false
   ?gtn
 
 // Lower than
 // int(false, 1) < int(true,  0) = True
 // int(true,  0) < int(false, 1) = False
-ltn(a: Inte, b: Inte): Bool // if A > B == False else true
+ltn(a: Inte, b: Inte): Bool // if A > B then False else true
   ?ltn
 
 // Minimum
@@ -169,7 +169,7 @@ max(a: Inte, b: Inte): Inte // if A > B then A else B
   ?max
 
 // Half
-// Divides a number by two
+// Divides an Integer by two
 // int(false, 4) = -2
 // int(false, 1) = +0
 // int(true,  6) = +3
