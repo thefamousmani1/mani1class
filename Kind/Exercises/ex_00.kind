@@ -8,14 +8,13 @@ type Bool {
 // Is true
 // Returns true if input is true
 is_true(a: Bool): Bool
+  a 
 
-  ?i2
 
 // Is false
 // Returns true if input is false
 is_false(a: Bool): Bool
 
-  ?i
 
 // Negation
 // Returns the opposite of a Bool
@@ -64,3 +63,5 @@ nand(a: Bool, b: Bool): Bool
 xnor(a: Bool, b: Bool): Bool
 
   ?x2
+ex_00: Bool
+is_true()
