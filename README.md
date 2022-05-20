@@ -1,21 +1,45 @@
-# class
-In this repository you will find several exercises to help you familiarize yourself with
-the Kind language and HVM, they are organized in such a way where your can gradually gain experience and be enabled to take on harder and harder challenges. 
+# Exercises to Kindelia classes
 
-To install Kind you can follow this tutorial [Kind](https://github.com/Kindelia/Kind#readme) and [HVM](https://github.com/Kindelia/HVM#readme). 
+Exercises for learning [Kind](https://github.com/Kindelia/Kind#readme) language and [HVM](https://github.com/Kindelia/HVM#readme). 
 
-If you look into the HVM folder, you will find basics lists of exercises: Boolean and Natural Lists and etc.
+###  Folder Structure
+* **Kind**
+  * **Exercises**: Functional exercises with increasing difficulty.
+  * **Games**: Where you apply acquired knowledge to build games.
+  * **Theorems**: To prove that the results obtained are correct.
+* **HVM**: Exercises about HVM. For example: Nat, Bool and List.
 
-Inside the Kind directory there are 3 folders: 
+To solve the exercises you will need to read the
+[Kind Documentation](https://app.gitbook.com/o/f5pmVKXE0zdcMOu6WXHf/s/MAbwOd8IAba3qXSYTi00/).
 
-"Exercises" for regular functional exercises.
-"Games" games where you can apply the knowledge you gained on "Exercises".
-"Theorems" for theorem proving exercises, the endgame.
+## How To
+### Install Dependencies
+* [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [Kind](https://github.com/Kindelia/Kind#usage)
+* [HVM](https://github.com/Kindelia/HVM#usage) \**maybe*
 
-We suggest that you do them in the following order:
-Kind Exercises -> Games -> Theorems -> HVM exercises~
+### Setup
+* [Fork this repository](https://github.com/Kindelia/class/fork)
+* `git clone` your forked repository
 
-And read the gitbook for better understanding of the language.
+```bash
+git clone https://github.com/<your-user-name>/<your-repository-name>
+```
 
-Kind gitbook “underconstruction”
-HVM gitbook “underconstruction”
+* `cd` on the folder created and make the exercises on folder **Kind**
+
+### Get Tokens
+The repository [kindelia/class-solutions](https://github.com/Kindelia/class-solutions#readme) 
+has instructions about how to participate of monthly distribution tokens.
+
+More info on [Discord](https://discord.gg/kindelia).
+
+### Update your fork
+
+```bash
+git remote add upstream https://github.com/Kindelia/class.git
+git fetch upstream
+git checkout main
+git rebase upstream/main
+```
+
