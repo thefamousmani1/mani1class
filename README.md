@@ -21,8 +21,9 @@ To solve the exercises you will need to read the
 ### Setup
 * [Fork this repository](https://github.com/Kindelia/class/fork)
 * `git clone` your forked repository
-bash
-git clone https://github.com/\<your-user-name\>/\<your-repository-name\>
+```bash
+git clone https://github.com/<your-user-name>/<your-repository-name>
+```
 
 * `cd`on the folder created and make the exercises on folder **Kind**
 
