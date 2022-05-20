@@ -179,7 +179,7 @@ hlf(a: Inte): Inte
 div(a: Inte, b: Inte): Inte 
   ?div
 
-ex_06: _
+ex_06: IO<Unit>
   IO {
     Tests._06.inc(inc)
     Tests._06.dec(dec)

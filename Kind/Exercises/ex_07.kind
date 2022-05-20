@@ -191,7 +191,7 @@ drop(n: Nat, bs: Bits): Bits
 take(n: Nat, bs: Bits): Bits
   ?take
 
-ex_07: _
+ex_07: IO<Unit>
   IO {
     Tests._07.is_empty(is_empty)
     Tests._07.tail(tail)
