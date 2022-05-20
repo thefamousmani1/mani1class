@@ -12,6 +12,7 @@ Exercises for learning [Kind](https://github.com/Kindelia/Kind#readme) language 
 
 To solve the exercises you will need to read the
 [Kind Documentation](https://app.gitbook.com/o/f5pmVKXE0zdcMOu6WXHf/s/MAbwOd8IAba3qXSYTi00/).
+
 Watch the video classes on [youtube](https://youtube.com/playlist?list=PLfzmqZsMFpsojpQHxfc27FAmzKf5GUsxF)
 and revise the [slides](https://github.com/Kindelia/slides).
 
