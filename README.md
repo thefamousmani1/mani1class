@@ -21,6 +21,7 @@ To solve the exercises you will need to read the
 ### Setup
 * [Fork this repository](https://github.com/Kindelia/class/fork)
 * `git clone` your forked repository
+
 ```bash
 git clone https://github.com/<your-user-name>/<your-repository-name>
 ```
