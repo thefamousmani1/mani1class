@@ -8,9 +8,13 @@ Exercises for learning [Kind](https://github.com/Kindelia/Kind#readme) language 
   * **Games**: Where you apply acquired knowledge to build games.
   * **Theorems**: To prove that the results obtained are correct.
 * **HVM**: Exercises about HVM. For example: Nat, Bool and List.
+* **Solutions**: Where you put yout answers
 
 To solve the exercises you will need to read the
 [Kind Documentation](https://app.gitbook.com/o/f5pmVKXE0zdcMOu6WXHf/s/MAbwOd8IAba3qXSYTi00/).
+
+Watch the video classes on [youtube](https://youtube.com/playlist?list=PLfzmqZsMFpsojpQHxfc27FAmzKf5GUsxF)
+and revise the [slides](https://github.com/Kindelia/slides).
 
 ## How To
 ### Install Dependencies
