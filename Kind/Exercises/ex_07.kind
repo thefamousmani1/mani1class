@@ -152,7 +152,7 @@ length_go(bs: Bits, acum: Nat): Nat
 //length(a) -> Nat.succ(Nat.succ(Nat.zero))
 //length(b) -> Nat.succ(Nat.succ(Nat.succ(Nat.zero)))
 //length(c) -> Nat.succ(Nat.succ(Nat.succ(Nat.succ(Nat.zero))))
-//length(d) -> 4
+//length(d) -> Nat.succ(Nat.succ(Nat.succ(Nat.succ(Nat.zero))))
 length(bs: Bits): Nat
   length_go(bs, 0)
 
