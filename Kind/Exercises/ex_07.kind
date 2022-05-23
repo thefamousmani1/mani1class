@@ -41,12 +41,12 @@ tail(b: Bits): Bits
 
 //Negates all Bits
 
-//not(a) -> Bits.o(Bits.o(Bits.e))
-//not(b) -> Bits.i(Bits.o(Bits.o(Bits.e)))
-//not(c) -> Bits.i(Bits.i(Bits.o(Bits.o(Bits.e))))
-//not(d) -> Bits.o(Bits.o(Bits.o(Bits.o(Bits.e))))
-not(b: Bits): Bits
-  ?not
+//notb(a) -> Bits.o(Bits.o(Bits.e))
+//notb(b) -> Bits.i(Bits.o(Bits.o(Bits.e)))
+//notb(c) -> Bits.i(Bits.i(Bits.o(Bits.o(Bits.e))))
+//notb(d) -> Bits.o(Bits.o(Bits.o(Bits.o(Bits.e))))
+notb(b: Bits): Bits
+  ?notb
 
 
 
@@ -173,10 +173,10 @@ mul(a: Bits, b: Bits): Bits
 
 //Drops a n Number of Bits starting from from the least significative bit
 
-//drop(a) -> Bits.i(Bits.e)
-//drop(b) -> Bits.i(Bits.i(Bits.e))
-//drop(c) -> Bits.o(Bits.i(Bits.i(Bits.e)))
-//drop(d) -> Bits.i(Bits.i(Bits.i(Bits.e)))
+//drop(1, a) -> Bits.i(Bits.e)
+//drop(1, b) -> Bits.i(Bits.i(Bits.e))
+//drop(1, c) -> Bits.o(Bits.i(Bits.i(Bits.e)))
+//drop(1, d) -> Bits.i(Bits.i(Bits.i(Bits.e)))
 drop(n: Nat, bs: Bits): Bits
   ?drop
   
