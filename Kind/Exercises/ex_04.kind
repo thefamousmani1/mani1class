@@ -83,3 +83,20 @@ hlf(a: Nat): Nat
 div(a: Nat, b: Nat): Nat // division
   
   ?d
+
+
+ex_04: IO<Unit>
+  IO {
+    Tests._04.dbl(dbl)
+    Tests._04.add(add)
+    Tests._04.mul(mul)
+    Tests._04.sub(sub)
+    Tests._04.fac(fac)
+    Tests._04.eql(eql)
+    Tests._04.gtn(gtn)
+    Tests._04.ltn(ltn)
+    Tests._04.min(min)
+    Tests._04.max(max)
+    Tests._04.hlf(hlf)
+    Tests._04.div(div)
+  }
