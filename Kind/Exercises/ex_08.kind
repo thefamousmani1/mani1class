@@ -6,7 +6,7 @@ type List <A: Type> {
 }
 
 // Returns the head of the List
-head<A: Type>(xs: List<A>): A
+head<A: Type>(xs: List<A>): Maybe<A>
   ?head
 
 // Returns the list without the first element
@@ -18,7 +18,7 @@ length<A: Type>(xs: List<A>): Nat
   ?a
 
 // Returns the last element of a list
-last<A: Type>(xs: List<A>): A
+last<A: Type>(xs: List<A>): Maybe<A>
   ?last
 
 // Returns the list without the last element
