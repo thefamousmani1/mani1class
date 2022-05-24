@@ -195,7 +195,7 @@ ex_07: IO<Unit>
   IO {
     Tests._07.is_empty(is_empty)
     Tests._07.tail(tail)
-    Tests._07.not(not)
+    Tests._07.not(notb)
     Tests._07.inc(inc)
     Tests._07.dec(dec)
     Tests._07.concat(concat)
