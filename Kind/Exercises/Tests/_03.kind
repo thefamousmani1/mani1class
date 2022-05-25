@@ -18,7 +18,7 @@ Tests._03.dec(dec: Nat -> Nat): IO<Unit>
 
 Tests._03.is_zero(is_zero: Nat -> Bool): IO<Unit>
   IO {
-    Assert.bool("is_zero 0", is_zero(0), true)
+    Assert.bool("is_zero 0", is_zero(0),  true)
     Assert.bool("is_zero 1", is_zero(1), false)
     Assert.bool("is_zero 1", is_zero(8), false)
     IO.print("is_zero: All terms tested")
