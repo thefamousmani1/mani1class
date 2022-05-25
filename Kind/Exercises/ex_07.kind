@@ -190,3 +190,21 @@ drop(n: Nat, bs: Bits): Bits
 //take(4, d) -> Bits.i(Bits.i(Bits.i(Bits.i(Bits.e))))
 take(n: Nat, bs: Bits): Bits
   ?take
+
+ex_07: IO<Unit>
+  IO {
+    Tests._07.is_empty(is_empty)
+    Tests._07.tail(tail)
+    Tests._07.not(notb)
+    Tests._07.inc(inc)
+    Tests._07.dec(dec)
+    Tests._07.concat(concat)
+    Tests._07.add(add)
+    Tests._07.and(and)
+    Tests._07.eql(eql)
+    Tests._07.reverse(reverse)
+    Tests._07.length(length)
+    Tests._07.mul(mul)
+    Tests._07.drop(drop)
+    Tests._07.take(take)
+  }
