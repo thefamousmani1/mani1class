@@ -153,6 +153,14 @@ slice(n: Nat, x: Nat, xs: String): String
   ?stringslice
 
 
+//Filters the String and discards all the Chars that doesn't satisfy given condition 
+
+//filter(is_upper,      a) -> "HI"
+//filter(is_lower,      b) -> "ello"
+//filter(is_equal('t'), c) -> "tt"
+filter(cond: Char -> Bool, xs: String): String
+  ?filter
+
 
 
 
@@ -216,7 +224,7 @@ split(xs: String, match: String): List<String>
 
 //take_while(is_upper,    a) -> "HI"
 //take_while(is_lower,    b) -> "ello"
-//take_while(is_equal(c), c) -> "text"
+//take_while(is_equal('t'), c) -> "tt"
 take_while(cond: Char -> Bool, xs: String): String
   ?take_while
 
@@ -237,3 +245,6 @@ find(xs: String, x: Char): Nat
 //flatten([a,b,c]) -> "HIHellotext"
 flatten(lxs: List<String>): String
   ?flatten
+
+
+
