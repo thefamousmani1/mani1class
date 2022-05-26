@@ -16,13 +16,13 @@ Char: Type
 //Ascii Table from Wikipedia:
 // https://upload.wikimedia.org/wikipedia/commons/1/1b/ASCII-Table-wide.svg
 
-//  ____________________________________
-// | No Syntax Sugar   |  Syntax Sugar  |  
-// |-------------------|----------------|
-// |     72#16         |      'H'       |
-// |    101#16         |      'e'       |
-// |    121#16         |      'y'       |
-//  ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+//  _________________________________________
+// | U16 Syntax Sugar   | Char Syntax Sugar  |  
+// |--------------------|--------------------|
+// |     72#16          |      'H'           |
+// |    101#16          |      'e'           |
+// |    121#16          |      'y'           |
+//  ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 
 //Verifies if the character is Upper Case
 
