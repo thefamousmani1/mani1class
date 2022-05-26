@@ -44,7 +44,7 @@ is_lower(x: Char): Bool
 
 
 
-//Verifies if the character is L
+//Verifies if the character is a Number-Digit Value
 
 //is_digit('a') -> Bool.false
 //is_digit('A') -> Bool.false
