@@ -123,53 +123,11 @@ concat(xs: String, ys: String): String
 
 
 
-//Drops a n Number of characteres from a String
-
-//drop(1, a) -> "I"
-//drop(2, b) -> "llo"
-//drop(3, c) -> "t"
-drop(n: Nat, xs: String): String
-  ?stringdrop
-
-
-
-
-//Takes n elements of a String
-
-//take(1, a) ->  "H"
-//take(2, b) ->  "He"
-//take(3, c) ->  "tex"
-take(n: Nat xs: String): String
-  ?stringtake
-
-
-
-//Takes a x part of the string after a n Index of values get dropped
-
-//slice(1, 2, a) -> "I"
-//slice(2, 4, b) -> "ll"
-//slice(1, 3, c) -> "ex"
-slice(n: Nat, x: Nat, xs: String): String
-  ?stringslice
-
-
-//Filters the String and discards all the Chars that doesn't satisfy given condition 
-
-//filter(is_upper,      a) -> "HI"
-//filter(is_lower,      b) -> "ello"
-//filter(is_equal('t'), c) -> "tt"
-filter(cond: Char -> Bool, xs: String): String
-  ?filter
-
-
-
-
 //Applies a Function to all Characters of the String
 
 //map(to_lower, a) -> "hi"
 map(fn: Char -> Char, xs: String): String
   ?map
-
 
 
 
@@ -239,6 +197,14 @@ find(xs: String, x: Char): Nat
   ?find
 
 
+//Filters the String and discards all the Chars that doesn't satisfy given condition 
+
+//filter(is_upper,      a) -> "HI"
+//filter(is_lower,      b) -> "ello"
+//filter(is_equal('t'), c) -> "tt"
+filter(cond: Char -> Bool, xs: String): String
+  ?filter
+
 
 //Concatenates all elements of a List of Strings
 
@@ -248,3 +214,31 @@ flatten(lxs: List<String>): String
 
 
 
+//Drops a n Number of characteres from a String
+
+//drop(1, a) -> "I"
+//drop(2, b) -> "llo"
+//drop(3, c) -> "t"
+drop(n: Nat, xs: String): String
+  ?stringdrop
+
+
+
+
+//Takes n elements of a String
+
+//take(1, a) ->  "H"
+//take(2, b) ->  "He"
+//take(3, c) ->  "tex"
+take(n: Nat xs: String): String
+  ?stringtake
+
+
+
+//Takes a x part of the string after a n Index of values get dropped
+
+//slice(1, 2, a) -> "I"
+//slice(2, 4, b) -> "ll"
+//slice(1, 3, c) -> "ex"
+slice(n: Nat, x: Nat, xs: String): String
+  ?stringslice
