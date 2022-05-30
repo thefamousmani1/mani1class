@@ -5,10 +5,14 @@ type Bool {
   false
 }
 
-// Is true
-// Returns true if input is true
-is_true(a: Bool): Bool
-  ?a 
+// is true
+// returns true if input is true
+// is_true(a: Bool): Bool
+//    case a {
+//        true: true
+//        false: false
+//    }
+
 
 
 // Is false
