@@ -93,26 +93,53 @@ int(sign: Bool, num: Nat): Inte
 
 // Exercises:
 
-// Increments an Integer
-// int(false, 1)     = +0
-// int(false, 2)     = -1
-// int(true,  2)     = +3
 inc(a: Inte): Inte  
-  ?inc
+  case a {
+     neg: case a.num {
+          one: Inte.pos(Pos.zero)
+          pred: Inte.neg(a.num.succ)
+      }
+      pos: case a.num {
+        zero: Inte.pos(Pos.succ(Pos.zero))
+        succ: Inte.pos(Pos.succ(a.num))
+        
+      }
+  }
 
-// Decrements an Integer
-// int(false, 1) = -2
-// int(true,  2) = +1
-// int(true,  0) = -1
+//inteiro2:_
+//inc(Inte.pos(Pos.succ(Pos.zero)))
+
 dec(a: Inte): Inte
-  ?dec
+  case a {
+      neg: case a.num {
+          one: Inte.neg(Neg.pred(Neg.one))
+          pred: Inte.neg(Neg.pred(a.num))
+      }
+      pos: case a.num {
+          zero: Inte.neg(Neg.one)
+          succ: Inte.pos(a.num.pred)
+      }
+  }
 
-// Doubles an Integer
-// int(false, 4) = -8
-// int(false, 1) = -2
-// int(true,  2) = +4
+//inteiro2:_
+//dec(Inte.neg(Neg.pred(Neg.pred(Neg.one))))
+
+
 dbl(a: Inte): Inte 
-  ?dbl
+  case a {
+      neg: case a.num {
+          one: Inte.neg(Neg.pred(Neg.one))
+          pred: dec(dec(dbl(inc(a))))
+
+      }
+      pos: case a.num {
+          zero: Inte.pos(Pos.zero)
+          succ: inc(inc(dbl(dec(a))))
+      }
+  }
+
+//inteiro2:_
+//dbl(Inte.neg(Neg.pred(Neg.one)))
 
 // Adds two Integers
 // int(false, 4) + int(false, 2) = -6
