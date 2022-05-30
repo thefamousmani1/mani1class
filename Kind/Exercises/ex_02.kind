@@ -5,22 +5,47 @@ type PairBool {
 }
 
 // Returns the first element of a pair
-fst(pair: PairBool): Bool
-  ?f
+//fst(pair: PairBool): Bool
+//    case pair {
+//        new: pair.fst
+//    }
+
+//ex2:_
+//fst(PairBool.new(Bool.false, Bool.true))
 
 // Returns the second element of a pair
-snd(pair: PairBool): Bool
-  ?s
+//snd(pair: PairBool): Bool
+//    case pair {
+//        new: pair.snd
+//    }
+
+//ex2:_
+//snd(PairBool.new(Bool.false, Bool.true))
 
 // Returns true if both elements of a PairBool are identical
-eql_elements(pair: PairBool): Bool 
-  ?l
-  
-// Returns true if both Pairs are equal 
-// eql(PairBool.new(false, false), PairBool.new(true, true)) -> false 
-// eql(PairBool.new(true, false), PairBool.new(true, false)) -> true
+//eql_elements(a: PairBool): Bool
+//    case a {
+//        new: case a.fst a.snd {
+//            false false: true
+//            false true: false
+//            true false: false
+//            true true: true
+//        }
+//    }
+//ex2:_
+//eql_elements(PairBool.new(Bool.false, Bool.false))
+
+// Returns true if both Pairs are equal
+// eql(PairBool.new(false, false), PairBool.new(true, true)) -> true 
+// eql(PairBool.new(true, false), PairBool.new(true, false)) -> false
 eql(a: PairBool, b: PairBool): Bool
-  ?e
+    case a b {
+        new: case a.fst b.fst {
+            
+        }
+
+ex2:_
+eql(PairBool.new(Bool.false, Bool.true))
 
 // Returns true if both Pairs are different
 // not_eql(PairBool.new(false, false), PairBool.new(true, true)) -> true 
