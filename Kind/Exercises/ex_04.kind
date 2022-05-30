@@ -6,26 +6,61 @@ type Nat {
 }
 
 // Doubles a number
-dbl(a: Nat): Nat // double
+dbl(a: Nat): Nat
+    case a {
+        zero: Nat.zero
+        succ: Nat.succ(Nat.succ(dbl(a.pred)))
+    }
 
-  ?b
+//5*2 = 2 + (2*(5-1))
+//2*a = 2*((a-1)+1) -> 
 
-// Addition
+//natural:_
+//dbl(Nat.succ(Nat.succ(Nat.zero)))
+
 add(a: Nat, b: Nat): Nat
+  case a {
+    zero: b
+    succ: case b {
+      zero: a 
+      succ: add(a.pred, Nat.succ(b))
+  }
+}
 
-  ?a
-
-// Multiplication
 mul(a: Nat, b: Nat): Nat
-  
-  ?m
+  case a {
+    zero: Nat.zero
+    succ: add(b, mul(a.pred, b))
+  }
 
-// Subtraction
-// 4 - 5 = 0
-// 5 - 4 = 1
+  // add(3, 3) = 6 
+
+//a * b = 4 + ((6-1)*4)
+
+//add(3, 0)
+//mul(0, 3)
+//mul(1, 3)
+
+// 3*3 = 9
+// 3*3 = 3+3+3
+// 3*5 = 3+3+3+3+3
+
+
 sub(a: Nat, b: Nat): Nat
+  case a {
+    zero: b
+    succ: case b {
+      zero: a
+      succ: sub(a.pred, Nat.pred(b))
+    }
+  }
 
-  ?s
+
+
+
+natural:_
+sub(8, 3)
+
 
 // Factorial
 // 4! = 24
