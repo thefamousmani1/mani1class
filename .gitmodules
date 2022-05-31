@@ -1,0 +1,6 @@
+[submodule "Kind/Exercises/thefamousmani1"]
+	path = Kind/Exercises/thefamousmani1
+	url = https://github.com/thefamousmani1/classmani1.git
+[submodule "Kind/Exercises/mani1"]
+	path = Kind/Exercises/mani1
+	url = https://github.com/thefamousmani1/mani1class.git
